@@ -1,0 +1,7 @@
+import base64
+import zlib
+original_data = raw_input("\033[1;91m[\033[1;97m??\033[1;91m]\033[1;96m saisi le texte \033[1;91m : \033[1;97m ")
+
+decoded64 = base64.b64decode(original_data)      #format:b'\x16xe\x94...\xae\x9a\...'
+final_decoded = zlib.decompress(decoded64)
+print(final_decoded)
