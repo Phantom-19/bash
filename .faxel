@@ -1,0 +1,47 @@
+-command_not_found_handle() {
+	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
+}
+
+
+cd $HOME
+clear
+bash ab
+echo -e "Appuyer entrer"
+read
+clear
+alias c='clear'
+alias x='exit'
+alias h='help'
+alias ip='curl ifconfig.me'
+alias ifc='ifconfig wlan0'
+alias g='git clone'
+alias pk='pkg update && pkg upgrade'
+alias ap='apt update && apt upgrade'
+alias n='nano'
+alias l='ls -f'
+alias ch='chmod +x'
+alias msf='./me.sh'
+alias r='rm -rf'
+alias a='ps'
+alias tout='apt update
+apt upgrade
+apt-get install python
+apt-get install python2
+apt-get install curl
+apt-get install wget
+apt-get install php
+apt-get install openssh
+apt-get install ncurses-utils
+apt-get install w3m'
+alias c='cp -f /sdcard/download/.faxel $HOME'
+
+echo
+wget https://raw.githubusercontent.com/Phantom-19/bash/master/maj.txt
+clear
+mv maj.txt .maj.txt
+
+
+
+exit 0
+exit 0
+fi
