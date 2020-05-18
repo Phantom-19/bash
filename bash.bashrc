@@ -1,3 +1,25 @@
+Welcome to Termux!
+
+Wiki:            https://wiki.termux.com
+Community forum: https://termux.com/community
+Gitter chat:     https://gitter.im/termux/termux
+IRC channel:     #termux on freenode
+
+Working with packages:
+
+ * Search packages:   pkg search <query>
+ * Install a package: pkg install <package>
+ * Upgrade packages:  pkg upgrade
+
+Subscribing to additional repositories:
+
+ * Root: pkg install root-repo
+
+You are using legacy Termux environment.
+Packages are unmaintained and will not
+receive any updates.
+
+
 command_not_found_handle() {
 	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
 }
@@ -25,7 +47,7 @@ echo ""
 echo ''
 
 
-PS1='\[\e[38;5;214m\]╔═\e[1;91m[\[\e[97m\]\T\[\e[1;91m\]]\e[38;5;214m══\e[1;91m[\[\033[38;5;245m\]Mr \033[38;5;221mHacker_K\[\033[1;91m\]]\033[38;5;214m══\[\033[1;31m\][\e[1;96m\]\e[38;5;227m\W\[\e[1;91m\]]\033[38;5;214m══\e[1;91m[\[\e[1;92m\#\e[1;91m]
+PS1="\[\e[38;5;214m\]╔═\e[1;91m[\[\e[97m\]\T\[\e[1;91m\]]\e[38;5;214m══\e[1;91m[\[\033[38;5;245m\]Mr \033[38;5;221mHacker_K\[\033[1;91m\]]\033[38;5;214m══\[\033[1;31m\][\e[1;96m\]\e[38;5;227m\W\[\e[1;91m\]]\033[38;5;214m══\e[1;91m[\[\e[1;92m\#\e[1;91m]
 \[\033[38;5;214m\]║
-\[\033[38;5;214m\]╚═\033[1;91m▶ \[\033[38;5;115m\]'
+\[\033[38;5;214m\]╚═\033[1;91m▶ \[\033[38;5;115m\]"
 
