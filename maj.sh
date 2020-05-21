@@ -1,5 +1,5 @@
 echo ""
-toilet -f pagga  BASH  | lolcat
+toilet -f pagga         BASH          | lolcat
 echo ""
 echo "Mise a jour de BASH en cours........." | lolcat
 echo ""
