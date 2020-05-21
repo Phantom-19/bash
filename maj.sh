@@ -1,4 +1,4 @@
-echo "BASH."| lolcat
+toilet -f pagga  BASH  | lolcat
 echo ""
 echo "mise à jour bash........." | lolcat
 echo ""
