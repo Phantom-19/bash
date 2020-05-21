@@ -52,7 +52,7 @@ echo "$ef Rouge code=31 $ef"
 echo "$a Vert code=32$a"
 echo $b Jaune code=33 $b
 echo $c Bleu code=34 $c
-echo $d Pink clde=35 $d
+echo $d Pink code=35 $d
 echo $e Ciel code=36$e
 echo $f Blanc code=37 $f
 echo $g Blanc $g
