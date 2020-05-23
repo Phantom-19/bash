@@ -1,11 +1,8 @@
-# Usage de sudo
-
-
 <p align="left">
 <a href="#"><img title="Made in Ivory Coast" src="https://img.shields.io/badge/MADE%20IN-IVORY COAST-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="#"><img title="Photo de l'auteur" src="https://github.com/Phantom-19/bash/blob/master/d48f66300df1d343c5873d951b6a32bf.jpg"></a>
+<a href="#"><img title="Photo de l'auteur" src="https://github.com/Phantom-19/bash/blob/master/Faxel.jpg"></a>
 </p>
 <p align="center">
 <a href="https://github.com/Phantom-19"><img title="Auteur" src="https://img.shields.io/badge/Auteur-Mr--Hacker K-red.svg?style=for-the-badge&logo=github"></a>
@@ -21,7 +18,7 @@
 </p>
 
 ## Installation :
-
+`pour le SCANNEUR IP `
 * `apt update`
 * `apt install git curl python2 python `
 * `git clone https://github.com/Phantom-19/bash.git`
@@ -29,20 +26,21 @@
 * `pip2 install mechanize`
 * `pip2 install requests`
 
-#### > Execution : `sh et vous  faites le choix du module a executer`
+#### > Execution : `sh sc.sh`
 
 ## Commande unique:
 ```
-apt update ; apt install git curl -y ; git clone git clone https://github.com/Phantom-19/bash.git ; cd bash ; pip2 install mechanize ;   pip2 install requests ; sh ...sh
+apt update ; apt install git curl -y ; git clone git clone https://github.com/Phantom-19/bash.git ; cd bash ; pip2 install mechanize ;   pip2 install requests ; sh sc.sh
 ```
 <br>
 <p align="center">
 <a href="#"><img title="Capture" src="https://raw.githubusercontent.com/Phantom-19/bash/master/ips1.jpg"/></a>
 <a href="#"><img title="Capture" src="https://raw.githubusercontent.com/Phantom-19/bash/master/ips2.jpg"/></a>
 
-  
-## Installation :
 
+# Usage de sudo
+
+## Installation :
 * `git clone https://github.com/Phantom-19/bash`
 >>>>>
 * `cd bash`
@@ -60,17 +58,18 @@ apt update ; apt install git curl -y ; git clone git clone https://github.com/Ph
 * `sudo tsu `
 # Usage de bash.bashrc
 >>>>>
->>>>>curl -LO https://raw.githubusercontent.com/phantom-19/bash/master/bash.bashrc
+* `curl -LO https://raw.githubusercontent.com/phantom-19/bash/master/bash.bashrc`
 >>>>>
->>>>>mv bash.bashrc /data/data/com.termux/files/usr/etc
+* `mv bash.bashrc /data/data/com.termux/files/usr/etc`
 >>>>>
->>>>>cd ../usr/etc
+* `cd ../usr/etc`
 >>>>>
->>>>>nano bash.bashrc
+* `nano bash.bashrc`
 >>>>>
->>>>>new session 
+* `new session `
 
-### <<< Si vous copiez ce code, alors donnez-moi les crédits >>>
+### Si vous copiez ce code, alors donnez-moi les crédits 
+
 ## Trouvez-moi sur :
 [![Github](https://img.shields.io/badge/Github-Phantom--19-green?style=for-the-badge&logo=github)](https://github.com/Phantom-19)
 [![Twitter](https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=Twitter)](https://twitter.com/KouadioAntoin13)
