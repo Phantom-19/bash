@@ -1,3 +1,4 @@
+clear
 echo ""
 toilet -f pagga         BASH          | lolcat
 echo ""
