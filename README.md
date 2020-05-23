@@ -5,7 +5,7 @@
 <a href="#"><img title="Photo de l'auteur" src="https://github.com/Phantom-19/bash/blob/master/Faxel.jpg"></a>
 </p>
 <p align="center">
-<a href="https://github.com/Phantom-19"><img title="Auteur" src="https://img.shields.io/badge/Auteur-Mr--Hacker K-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Phantom-19"><img title="Auteur" src="https://img.shields.io/badge/Auteur-Faxel-red.svg?style=for-the-badge&logo=github"></a>
 <a href="#"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-green?style=for-the-badge"></a>
 </p>
 <p align="center">
@@ -18,27 +18,24 @@
 </p>
 
 ## Installation :
-`pour le SCANNEUR IP `
+## `pour le SCANNEUR IP `
 * `apt update`
 * `apt install git curl python2 python `
 * `git clone https://github.com/Phantom-19/bash.git`
 * `cd bash`
-* `pip2 install mechanize`
-* `pip2 install requests`
 
-#### > Execution : `sh sc.sh`
+#### Execution > `sh sc.sh`
 
 ## Commande unique:
 ```
-apt update ; apt install git curl -y ; git clone git clone https://github.com/Phantom-19/bash.git ; cd bash ; pip2 install mechanize ;   pip2 install requests ; sh sc.sh
+apt update ; apt install git curl -y ; git clone git clone https://github.com/Phantom-19/bash.git ; cd bash ; sh sc.sh
 ```
 <br>
 <p align="center">
-<a href="#"><img title="Capture" src="https://raw.githubusercontent.com/Phantom-19/bash/master/ips1.jpg"/></a>
-<a href="#"><img title="Capture" src="https://raw.githubusercontent.com/Phantom-19/bash/master/ips2.jpg"/></a>
+<a href="#"><img title="Capture SCANNEUR IP" src="https://raw.githubusercontent.com/Phantom-19/bash/master/ips1.jpg"/></a>
+<a href="#"><img title="Capture SCANNEUR IP" src="https://raw.githubusercontent.com/Phantom-19/bash/master/ips2.jpg"/></a>
 
-
-# Usage de sudo
+# Usage de sudo pour le root
 
 ## Installation :
 * `git clone https://github.com/Phantom-19/bash`
@@ -68,7 +65,7 @@ apt update ; apt install git curl -y ; git clone git clone https://github.com/Ph
 >>>>>
 * `new session `
 
-### Si vous copiez ce code, alors donnez-moi les crédits 
+### `Si vous copiez ce code, alors donnez-moi les crédits` 
 
 ## Trouvez-moi sur :
 [![Github](https://img.shields.io/badge/Github-Phantom--19-green?style=for-the-badge&logo=github)](https://github.com/Phantom-19)
