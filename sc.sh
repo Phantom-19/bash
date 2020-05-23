@@ -10,4 +10,5 @@ echo ""
 echo "[+] Site Web  (www.faxel.com) :  " $cible | lolcat
 echo ""
 read cible
+sleep 1
 ping $cible
