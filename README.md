@@ -67,7 +67,7 @@ apt update ; apt install git curl -y ; git clone git clone https://github.com/Ph
 
 ### `Si vous copiez ce code, alors donnez-moi les crédits` 
 
-## Trouvez-moi sur :
+## `Retrouvez moi sur` :
 [![Github](https://img.shields.io/badge/Github-Phantom--19-green?style=for-the-badge&logo=github)](https://github.com/Phantom-19)
 [![Twitter](https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=Twitter)](https://twitter.com/KouadioAntoin13)
 [![Instagram](https://img.shields.io/badge/Instagram-%40faxel.19-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/faxel19)
@@ -78,4 +78,4 @@ apt update ; apt install git curl -y ; git clone git clone https://github.com/Ph
 [![Facebook](https://img.shields.io/badge/Facebook-blue?style=for-the-badge&logo=Facebook)](https://www.facebook.com/Faxel19)
 [![Skyrock](https://img.shields.io/badge/Skyrock-%40kouadiok-red?style=for-the-badge&logo=skyrock)](https://faxel.skyrock.com/profil)
 [![Snapchat](https://img.shields.io/badge/Snapchat-%40McTony64-green?style=for-the-badge&logo=snapchat)](https://www.snapchat.com/add/mctony64)
-
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?style=flat-square)]
