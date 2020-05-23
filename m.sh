@@ -12,8 +12,10 @@ figlet -f small Mise a jour ! | lolcat
 echo ""
 echo "[ Mise à jour terminée..]"  | lolcat
 echo ""
+sleep 1
 toilet -f pagga  Mr Hacker K  | lolcat
 echo ""
 echo ""
 echo ""
+sleep 3
 clear
