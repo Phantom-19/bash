@@ -9,6 +9,6 @@ echo "[!] Avant d'executer essayez d'utiliser un VPN,\npour bloquer le site Web 
 echo ""
 echo "[+] Site Web  (www.faxel.com) :  " $cible | lolcat
 echo ""
-read cible
+read -p "[Mr hacker_K]~~> "  cible
 sleep 1
 ping $cible
