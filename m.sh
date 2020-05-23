@@ -14,5 +14,6 @@ echo "[ Mise à jour terminée..]"  | lolcat
 echo ""
 toilet -f pagga  Mr Hacker K  | lolcat
 echo ""
-sleep(5)
+echo ""
+echo ""
 clear
