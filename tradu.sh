@@ -8,10 +8,16 @@ R='\033[31;1m'
 B='\033[37;1m'
 J='\033[33;1m'
 clear
-echo "Veuillez patienter..."
-sleep 3
-echo "Bienvenue chez Faxel" |lolcat
-sleep 5
+echo " Veuillez patienter........ " |lolcat
+sleep 7
+echo ""
+echo ""
+echo ""
+echo "        Bienvenue chez Faxel    " |lolcat
+echo ""
+echo ""
+echo ""
+sleep 2
 clear
 vert=$(tput setaf 2)
 Traducteur(){
@@ -28,8 +34,7 @@ Traducteur(){
   echo -n "$R[+]$B Resultat $R ===> $V  $faxel"
   echo ""
 }
-echo "${vert}"
-  
+
 echo $C   " ___ ____ ____ ___  _  _ ____ ___ ____ _  _ ____" 
 echo $C   "  |  |__/ |__| |  \ |  | |     |  |___ |  | |__/" 
 echo $C   "  |  |  \ |  | |__/ |__| |___  |  |___ |__| |  \" 
