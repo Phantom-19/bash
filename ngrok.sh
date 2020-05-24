@@ -34,7 +34,7 @@ echo "[ Mise à jour terminée..]"  | lolcat
 sleep 3
 clear
 echo ""
-toilet -f pagga  Faxel  | lolcat
+toilet -f pagga  Mr Faxel  | lolcat
 sleep 7
 
 clear
@@ -47,7 +47,7 @@ echo " ░▒▓██████████►Auteur : Faxel◄████�
  
 echo ""
 echo "Voulez-vous installer Ngrok ? [O/n]" | lolcat
-read -p      "Faxel@Mr Hacker_K~#" oui
+read -p  " Faxel@Mr Hacker_K~~~~>  " oui
 case $oui in
 o)
 echo ""
@@ -86,10 +86,9 @@ echo "╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ ╚�
 sleep 1
 echo ""
 echo "╔═══'•'๑۩۞۩๑•══•๑۩۞۩๑•══•๑۩۞۩๑•══•๑۩۞۩๑'•'═══╗ " | lolcat
-echo "    ˛╬╬╬╬╬˛°.｜田田 ｜門｜╬╬╬╬╬—╬╬╬╬╬ " | lolcat
 echo "    ……………..  ^v^ " | lolcat  
 echo "    ⋱ ⋮ ⋰ " | lolcat  
-echo "    ⋯ ◯ ⋯¨. ︵ ……………………………………….     ^v^ " | lolcat  
+echo "    ⋯ ◯ ⋯¨. ︵ ……………………………………….  ^v^ " | lolcat  
 echo "    ¨︵¸︵( ░░ )︵.︵.︵………….. ^v^ " | lolcat  
 echo "    (´░░░░░░ ‘) ░░░’ )  ) " | lolcat  
 echo "    ……………………………………..   ︵.︵ " | lolcat  
@@ -101,21 +100,20 @@ echo "    ……………./______/~＼…………\..|.| " | lolcat
 echo "    ˛╬╬╬╬╬˛°.｜田田 ｜門｜╬╬╬╬╬—╬╬╬╬╬ " | lolcat  
 echo "╚═══'•'๑۩۞۩๑•══•๑۩۞۩๑•══•๑۩۞۩๑•══•๑۩۞۩๑'•'═══╝ "| lolcat
 echo ""
-echo ""
 echo "Telechargment reussie !!"| lolcat
 echo ""
 sleep 1
 echo "Exemple de Commande (ngrok http 80) ou ngrok pour l'aide" | lolcat
+echo ""
+toilet -f pagga  Mr Faxel  | lolcat
 echo ""
 
 ;;
 
 n)
 clear
-toilet -f pagga  Faxel  | lolcat
+toilet -f pagga  Mr Faxel  | lolcat
 sleep 2
 echo "Impossible d'installer Ngrok correctement :(" | lolcat
 echo ""
 esac
-
-
