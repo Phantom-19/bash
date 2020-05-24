@@ -16,27 +16,26 @@ figlet -f small Mise a jour ! | lolcat
 echo "Mise a jour de la librairie de termux..." | lolcat
 echo ""
 sleep 1
-apt update && upgrade -y
-apt install -y wget
-apt install -y php
-apt install -y openssl
+apt update && upgrade 
+apt install  wget
+apt install  php
+apt install  openssl
 echo "[ Mise à jour terminée..]"  | lolcat
 sleep 2
 toilet -f pagga  Faxel  | lolcat
 sleep 5
 
 clear
-l='\033[1;96m'
-echo "$R
- $C░▒▓██████████►$V╬╬╬╬╬╬╬╬╬╬╬╬╬$C◄██████████▓▒░
- $C░▒▓██►$Re  ╔╗F╦╔═╗╔╗╔╦FF╦╔═╗╔╗╔╦F╦╔═╗  $C◄██▓▒░
- $C░▒▓██►$Ra  ╠╩╗║║╣F║║║╚╗╔╝║╣F║║║║F║║╣F  $C◄██▓▒░
- $C░▒▓██►$Rs  ╚═╝╩╚═╝╝╚╝F╚╝F╚═╝╝╚╝╚═╝╚═╝  $C◄██▓▒░
- $C░▒▓██████████►$V╬╬╬╬╬╬╬╬╬╬╬╬╬$C◄██████████▓▒░
- $C░▒▓██████████►$PAuteur $R:$Rs Faxel$C◄██████████▓▒░";   
+echo "
+ ░▒▓██████████►╬╬╬╬╬╬╬╬╬╬╬╬╬◄██████████▓▒░
+ ░▒▓██►$Re  ╔╗F╦╔═╗╔╗╔╦FF╦╔═╗╔╗╔╦F╦╔═╗  ◄██▓▒░
+ ░▒▓██►$Ra  ╠╩╗║║╣F║║║╚╗╔╝║╣F║║║║F║║╣F  ◄██▓▒░
+ ░▒▓██►$Rs  ╚═╝╩╚═╝╝╚╝F╚╝F╚═╝╝╚╝╚═╝╚═╝  ◄██▓▒░
+ ░▒▓██████████►╬╬╬╬╬╬╬╬╬╬╬╬╬◄██████████▓▒░
+ ░▒▓██████████►Auteur : Faxel◄██████████▓▒░"; | lolcat  
  
 echo ""
-echo "$BVoulez-vous installer Ngrok ? $R[$VO$J/$An$R]"
+echo "Voulez-vous installer Ngrok ? [O/n]" | lolcat
 read oui
 case $oui in
 o)
@@ -58,7 +57,7 @@ i*86)
 x86_64)
     architectureURL="amd64" ;;
 *)
-    echo "$RArchitecture inconnue"
+    echo "Architecture inconnue"| lolcat
 esac
 
 wget "https://github.com/tchelospy/NgrokTest/blob/master/ngrok-stable-linux-${architectureURL}.zip?raw=true" -O ngrok.zip
@@ -67,12 +66,12 @@ cat ngrok > /data/data/com.termux/files/usr/bin/ngrok
 chmod 700 /data/data/com.termux/files/usr/bin/ngrok
 rm ngrok ngrok.zip
 clear
-echo "${l}███╗   ██╗ ██████╗ ██████╗  ██████╗ ██╗  ██╗";
-echo "${l}████╗  ██║██╔════╝ ██╔══██╗██╔═══██╗██║ ██╔╝";
-echo "${l}██╔██╗ ██║██║  ███╗██████╔╝██║   ██║█████╔╝ ";
-echo "${l}██║╚██╗██║██║   ██║██╔══██╗██║   ██║██╔═██╗ ";
-echo "${l}██║ ╚████║╚██████╔╝██║  ██║╚██████╔╝██║  ██╗";
-echo "${l}╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝";
+echo "███╗   ██╗ ██████╗ ██████╗  ██████╗ ██╗  ██╗";| lolcat
+echo "████╗  ██║██╔════╝ ██╔══██╗██╔═══██╗██║ ██╔╝";| lolcat
+echo "██╔██╗ ██║██║  ███╗██████╔╝██║   ██║█████╔╝ ";| lolcat
+echo "██║╚██╗██║██║   ██║██╔══██╗██║   ██║██╔═██╗ ";| lolcat
+echo "██║ ╚████║╚██████╔╝██║  ██║╚██████╔╝██║  ██╗";| lolcat
+echo "╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝";| lolcat
 sleep 1
 echo "
 ……………..  ^v^
@@ -88,7 +87,7 @@ echo "
       ˛_Π_____.
 ……………./______/~＼…………\..|.|
 ˛╬╬╬╬╬˛°.｜田田 ｜門｜╬╬╬╬╬—╬╬╬╬╬
-╔═══'•'๑۩۞۩๑•══•๑۩۞۩๑•══•๑۩۞۩๑•══•๑۩۞۩๑'•'═══╗";
+╔═══'•'๑۩۞۩๑•══•๑۩۞۩๑•══•๑۩۞۩๑•══•๑۩۞۩๑'•'═══╗";| lolcat
 echo ""
 echo ""
 echo "Telechargment reussie !!"| lolcat
