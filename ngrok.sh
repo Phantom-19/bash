@@ -36,13 +36,13 @@ toilet -f pagga  Faxel  | lolcat
 sleep 5
 
 clear
-echo "
-echo " ░▒▓██████████►╬╬╬╬╬╬╬╬╬╬╬╬╬◄██████████▓▒░"| lolcat  
-echo " ░▒▓██►  ╔╗F╦╔═╗╔╗╔╦FF╦╔═╗╔╗╔╦F╦╔═╗  ◄██▓▒░"| lolcat  
-echo " ░▒▓██►  ╠╩╗║║╣F║║║╚╗╔╝║╣F║║║║F║║╣F  ◄██▓▒░"| lolcat  
-echo " ░▒▓██►  ╚═╝╩╚═╝╝╚╝F╚╝F╚═╝╝╚╝╚═╝╚═╝  ◄██▓▒░"| lolcat  
-echo " ░▒▓██████████►╬╬╬╬╬╬╬╬╬╬╬╬╬◄██████████▓▒░"| lolcat  
-echo " ░▒▓██████████►Auteur : Faxel◄██████████▓▒░" | lolcat  
+
+echo " ░▒▓██████████►╬╬╬╬╬╬╬╬╬╬╬╬╬◄██████████▓▒░"  | lolcat  
+echo " ░▒▓██►  ╔╗F╦╔═╗╔╗╔╦FF╦╔═╗╔╗╔╦F╦╔═╗  ◄██▓▒░"  | lolcat  
+echo " ░▒▓██►  ╠╩╗║║╣F║║║╚╗╔╝║╣F║║║║F║║╣F  ◄██▓▒░"  | lolcat  
+echo " ░▒▓██►  ╚═╝╩╚═╝╝╚╝F╚╝F╚═╝╝╚╝╚═╝╚═╝  ◄██▓▒░"  | lolcat  
+echo " ░▒▓██████████►╬╬╬╬╬╬╬╬╬╬╬╬╬◄██████████▓▒░"   | lolcat  
+echo " ░▒▓██████████►Auteur : Faxel◄██████████▓▒░"   | lolcat  
  
 echo ""
 echo "Voulez-vous installer Ngrok ? [O/n]" | lolcat
@@ -67,7 +67,7 @@ i*86)
 x86_64)
     architectureURL="amd64" ;;
 *)
-    echo "Architecture inconnue"| lolcat
+    echo "Architecture inconnue" | lolcat
 esac
 
 wget "https://github.com/tchelospy/NgrokTest/blob/master/ngrok-stable-linux-${architectureURL}.zip?raw=true" -O ngrok.zip
@@ -76,29 +76,30 @@ cat ngrok > /data/data/com.termux/files/usr/bin/ngrok
 chmod 700 /data/data/com.termux/files/usr/bin/ngrok
 rm ngrok ngrok.zip
 clear
-echo "███╗   ██╗ ██████╗ ██████╗  ██████╗ ██╗  ██╗"| lolcat
-echo "████╗  ██║██╔════╝ ██╔══██╗██╔═══██╗██║ ██╔╝"| lolcat
-echo "██╔██╗ ██║██║  ███╗██████╔╝██║   ██║█████╔╝ "| lolcat
-echo "██║╚██╗██║██║   ██║██╔══██╗██║   ██║██╔═██╗ "| lolcat
-echo "██║ ╚████║╚██████╔╝██║  ██║╚██████╔╝██║  ██╗"| lolcat
-echo "╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝"| lolcat
+echo "███╗   ██╗ ██████╗ ██████╗  ██████╗ ██╗  ██╗" | lolcat
+echo "████╗  ██║██╔════╝ ██╔══██╗██╔═══██╗██║ ██╔╝" | lolcat
+echo "██╔██╗ ██║██║  ███╗██████╔╝██║   ██║█████╔╝ " | lolcat
+echo "██║╚██╗██║██║   ██║██╔══██╗██║   ██║██╔═██╗ " | lolcat
+echo "██║ ╚████║╚██████╔╝██║  ██║╚██████╔╝██║  ██╗" | lolcat
+echo "╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝" | lolcat
 sleep 1
-echo "
-echo "╔═══'•'๑۩۞۩๑•══•๑۩۞۩๑•══•๑۩۞۩๑•══•๑۩۞۩๑'•'═══╗"| lolcat
-echo "    ……………..  ^v^" | lolcat  
-echo "    ⋱ ⋮ ⋰" | lolcat  
-echo "    ⋯ ◯ ⋯¨. ︵ ……………………………………….     ^v^" | lolcat  
-echo "    ¨︵¸︵( ░░ )︵.︵.︵………….. ^v^" | lolcat  
-echo "    (´░░░░░░ ‘) ░░░’ )  )" | lolcat  
-echo "    `´︶´¯`︶´`︶´︶´`︶…..^v^………   . ^v^" | lolcat  
-echo "    ……………………………………..   ︵.︵" | lolcat  
-echo "    …….………………………………. (˛. *˛.)…….. ^v^" | lolcat  
-echo "    ………………………………….. (˛˛. *。 )" | lolcat  
-echo "    ……….…………. (˛* ˛*˛* )" | lolcat  
-echo "          ˛_Π_____." | lolcat  
-echo "    ……………./______/~＼…………\..|.|" | lolcat  
-echo "    ˛╬╬╬╬╬˛°.｜田田 ｜門｜╬╬╬╬╬—╬╬╬╬╬" | lolcat  
-echo "╚═══'•'๑۩۞۩๑•══•๑۩۞۩๑•══•๑۩۞۩๑•══•๑۩۞۩๑'•'═══╝"| lolcat
+echo ""
+echo "╔═══'•'๑۩۞۩๑•══•๑۩۞۩๑•══•๑۩۞۩๑•══•๑۩۞۩๑'•'═══╗ " | lolcat
+echo "    ˛╬╬╬╬╬˛°.｜田田 ｜門｜╬╬╬╬╬—╬╬╬╬╬ " | lolcat
+echo "    ……………..  ^v^ " | lolcat  
+echo "    ⋱ ⋮ ⋰ " | lolcat  
+echo "    ⋯ ◯ ⋯¨. ︵ ……………………………………….     ^v^ " | lolcat  
+echo "    ¨︵¸︵( ░░ )︵.︵.︵………….. ^v^ " | lolcat  
+echo "    (´░░░░░░ ‘) ░░░’ )  ) " | lolcat  
+echo "    `´︶´¯`︶´`︶´︶´`︶…..^v^………   . ^v^ " | lolcat  
+echo "    ……………………………………..   ︵.︵ " | lolcat  
+echo "    …….………………………………. (˛. *˛.)…….. ^v^ " | lolcat  
+echo "    ………………………………….. (˛˛. *。 ) " | lolcat  
+echo "    ……….…………. (˛* ˛*˛* ) " | lolcat  
+echo "          ˛_Π_____. " | lolcat  
+echo "    ……………./______/~＼…………\..|.| " | lolcat  
+echo "    ˛╬╬╬╬╬˛°.｜田田 ｜門｜╬╬╬╬╬—╬╬╬╬╬ " | lolcat  
+echo "╚═══'•'๑۩۞۩๑•══•๑۩۞۩๑•══•๑۩۞۩๑•══•๑۩۞۩๑'•'═══╝ "| lolcat
 echo ""
 echo ""
 echo "Telechargment reussie !!"| lolcat
@@ -111,7 +112,7 @@ echo ""
 
 n)
 clear
-echo "Impossible d'installer Ngrok correctement." | lolcat
+echo "Impossible d'installer Ngrok correctement :(" | lolcat
 echo ""
 esac
 
