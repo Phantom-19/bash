@@ -1,4 +1,15 @@
 #!/bin/bash
+A='\033[34;1m'
+V='\033[32;1m'
+P='\033[35;1m'
+C='\033[36;1m'
+R='\033[31;1m'
+B='\033[37;1m'
+J='\033[33;1m'
+Ro ='\033[48;5;0;38;5;197m'
+Rs ='\033[38;5;251m'
+Re ='\033[38;5;110m'
+Ra ='\033[38;5;227m'
 
 clear
 figlet -f small Mise a jour ! | lolcat
@@ -15,17 +26,17 @@ toilet -f pagga  Faxel  | lolcat
 sleep 5
 
 clear
-k='\033[1;96m'
-echo "
-\033[0;32m ░▒▓\033[1;92m██████████►\033[1;95m╬╬╬╬╬╬╬╬╬╬\033[1;92m◄██████████\033[0;32m▓▒░
-\033[0;32m ░▒▓\033[1;92m██►\033[38;5;251m╔╗F╦╔═╗╔╗╔╦FF╦╔═╗╔╗╔╦F╦╔═╗\033[1;92m◄██\033[0;32m▓▒░
-\033[0;32m ░▒▓\033[1;92m██►\033[38;5;110m╠╩╗║║╣F║║║╚╗╔╝║╣F║║║║F║║╣F\033[1;92m◄██\033[0;32m▓▒░
-\033[0;32m ░▒▓\033[1;92m██►\033[38;5;227m╚═╝╩╚═╝╝╚╝F╚╝F╚═╝╝╚╝╚═╝╚═╝\033[1;92m◄██\033[0;32m▓▒░
-\033[0;32m ░▒▓\033[1;92m██████████►\033[1;95m╬╬╬╬╬╬╬╬╬╬\033[1;92m◄██████████\033[0;32m▓▒░
-\033[0;32m ░▒▓\033[1;92m██████████►\033[1;95mAuteur\033[1;91m :\033[48;5;0;38;5;197m Faxel\033[1;92m◄██████████\033[0;32m▓▒░";
-    
-echo
-echo "\033[1;97mVoulez-vous installer Ngrok ? \033[1;91m[\033[1;92mO\033[1;91m/\033[1;94mn\033[1;91m]"
+l='\033[1;96m'
+echo "$R
+ $C░▒▓██████████►$V╬╬╬╬╬╬╬╬╬╬╬╬╬$C◄██████████▓▒░
+ $C░▒▓██►$Re  ╔╗F╦╔═╗╔╗╔╦FF╦╔═╗╔╗╔╦F╦╔═╗  $C◄██▓▒░
+ $C░▒▓██►$Ra  ╠╩╗║║╣F║║║╚╗╔╝║╣F║║║║F║║╣F  $C◄██▓▒░
+ $C░▒▓██►$Rs  ╚═╝╩╚═╝╝╚╝F╚╝F╚═╝╝╚╝╚═╝╚═╝  $C◄██▓▒░
+ $C░▒▓██████████►$V╬╬╬╬╬╬╬╬╬╬╬╬╬$C◄██████████▓▒░
+ $C░▒▓██████████►$PAuteur $R:$Rs Faxel$C◄██████████▓▒░";   
+ 
+echo ""
+echo "$BVoulez-vous installer Ngrok ? $R[$VO$J/$An$R]"
 read oui
 case $oui in
 o)
@@ -47,7 +58,7 @@ i*86)
 x86_64)
     architectureURL="amd64" ;;
 *)
-    echo "\033[1;91m Architecture inconnue"
+    echo "$RArchitecture inconnue"
 esac
 
 wget "https://github.com/tchelospy/NgrokTest/blob/master/ngrok-stable-linux-${architectureURL}.zip?raw=true" -O ngrok.zip
@@ -56,12 +67,12 @@ cat ngrok > /data/data/com.termux/files/usr/bin/ngrok
 chmod 700 /data/data/com.termux/files/usr/bin/ngrok
 rm ngrok ngrok.zip
 clear
-echo "${k}███╗   ██╗ ██████╗ ██████╗  ██████╗ ██╗  ██╗";
-echo "${k}████╗  ██║██╔════╝ ██╔══██╗██╔═══██╗██║ ██╔╝";
-echo "${k}██╔██╗ ██║██║  ███╗██████╔╝██║   ██║█████╔╝ ";
-echo "${k}██║╚██╗██║██║   ██║██╔══██╗██║   ██║██╔═██╗ ";
-echo "${k}██║ ╚████║╚██████╔╝██║  ██║╚██████╔╝██║  ██╗";
-echo "${k}╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝";
+echo "${l}███╗   ██╗ ██████╗ ██████╗  ██████╗ ██╗  ██╗";
+echo "${l}████╗  ██║██╔════╝ ██╔══██╗██╔═══██╗██║ ██╔╝";
+echo "${l}██╔██╗ ██║██║  ███╗██████╔╝██║   ██║█████╔╝ ";
+echo "${l}██║╚██╗██║██║   ██║██╔══██╗██║   ██║██╔═██╗ ";
+echo "${l}██║ ╚████║╚██████╔╝██║  ██║╚██████╔╝██║  ██╗";
+echo "${l}╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝";
 sleep 1
 echo "
 ……………..  ^v^
@@ -83,14 +94,14 @@ echo ""
 echo "Telechargment reussie !!"| lolcat
 echo ""
 sleep 1
-echo "\033[1;97mExemple de Commande  (\033[1;95mngrok http 80\033[1;97m) \n\nou  ngrok pour l'aide" 
+echo "Exemple de Commande (ngrok http 80) ou ngrok pour l'aide" | lolcat
 echo ""
 
 ;;
 
 n)
 clear
-echo "\033[1;91mImpossible d'installer Ngrok correctement:("
+echo "Impossible d'installer Ngrok correctement." | lolcat
 echo ""
 esac
 
