@@ -19,7 +19,10 @@ sleep 1
 apt update && upgrade 
 apt install  wget
 apt install  php
-apt install  openssl
+apt install  curl
+apt install  nano
+apt install  simplejson
+apt install  curl
 echo "[ Mise à jour terminée..]"  | lolcat
 sleep 2
 toilet -f pagga  Faxel  | lolcat
