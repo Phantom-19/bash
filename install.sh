@@ -1,6 +1,5 @@
+#!/bin/bash
 
-clear
-python2 spell.py
 blue='\033[34;1m'
 green='\033[32;1m'
 purple='\033[35;1m'
@@ -25,7 +24,6 @@ echo ""
 echo $red
 echo       "<==============================================>"
 echo       "| Auteur    : Faxel                            |"
-echo       "| Github    : https://github.com/MrDebo        |"
 echo $white"| Facebook  : https://www.facebook.com/faxel19 |"
 echo       "| WhatsApp  : +22555709610                     |"
 echo       "| Telgram   : @Faxelh                          |"
