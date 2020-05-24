@@ -10,7 +10,7 @@ J='\033[33;1m'
 clear
 echo "Veuillez patienter..."
 sleep 3
-echo "Bienvenue chez Faxel"
+echo "Bienvenue chez Faxel" |lolcat
 sleep 5
 clear
 vert=$(tput setaf 2)
@@ -29,17 +29,16 @@ Traducteur(){
   echo ""
 }
 echo "${vert}"
-cat << "EOF"
-
-$B████████╗██████╗  █████╗ ██████╗ ██╗   ██╗ ██████╗████████╗███████╗██╗   ██╗██████╗ 
-$C╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗██║   ██║██╔════╝╚══██╔══╝██╔════╝██║   ██║██╔══██╗
-$C   ██║   ██████╔╝███████║██║  ██║██║   ██║██║        ██║   █████╗  ██║   ██║██████╔╝
-$C   ██║   ██╔══██╗██╔══██║██║  ██║██║   ██║██║        ██║   ██╔══╝  ██║   ██║██╔══██╗
-$C   ██║   ██║  ██║██║  ██║██████╔╝╚██████╔╝╚██████╗   ██║   ███████╗╚██████╔╝██║  ██║
-$R   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝  ╚═════╝   ╚═╝   ╚══════╝ ╚═════╝ ╚═╝  ╚═╝
-       $A AUTEUR $R: $JFAXEL                        
-                 $PGOOGLE TRADUCTION                             
-EOF
+  
+echo $C   " ___ ____ ____ ___  _  _ ____ ___ ____ _  _ ____" 
+echo $C   "  |  |__/ |__| |  \ |  | |     |  |___ |  | |__/" 
+echo $C   "  |  |  \ |  | |__/ |__| |___  |  |___ |__| |  \" 
+echo $V   "<==============================================>"
+echo $V   "|$B Auteur    $R:$P FAXEL                            $V|"
+echo $V   "|$B Facebook  $R:$J https://www.facebook.com/faxel19 $V|"
+echo $V   "|$B WhatsApp  $R:$A +22555709610                     $V|"
+echo $V   "|$B Nom outil $R:$C GOOGLE TRADUCTION                $V|"                        
+echo $V   "<==============================================>"
 echo ""
 echo -n "$R[+]$C Votre Phrase a traduire $R :  $B "; read TRA
 echo $J
