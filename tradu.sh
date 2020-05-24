@@ -25,20 +25,25 @@ Traducteur(){
          -H 'accept-encoding: gzip, deflate, br' \
          -H 'accept-language: id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7' --compressed)
    faxel=$(echo -e "$serveurt" | grep -Po 'class="t0">(\D+)</div>' | cut -d ">" -f2 | cut -d "<" -f1)
-  echo -n "$R[+]$B Resultat ===>  $faxel"
+  echo -n "$R[+]$B Resultat $R ===> $V  $faxel"
+  echo ""
 }
 echo "${vert}"
 cat << "EOF"
- _  _ ____     ____ ____ _  _ ____ _    
- |\/| |__/     |___ |__|  \/  |___ |                              
- |  | |  \     |    |  | _/\_ |___ |___                           
-        AUTEUR : FAXEL                        
-                 GOOGLE Traduction                             
+
+$B████████╗██████╗  █████╗ ██████╗ ██╗   ██╗ ██████╗████████╗███████╗██╗   ██╗██████╗ 
+$C╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗██║   ██║██╔════╝╚══██╔══╝██╔════╝██║   ██║██╔══██╗
+$C   ██║   ██████╔╝███████║██║  ██║██║   ██║██║        ██║   █████╗  ██║   ██║██████╔╝
+$C   ██║   ██╔══██╗██╔══██║██║  ██║██║   ██║██║        ██║   ██╔══╝  ██║   ██║██╔══██╗
+$C   ██║   ██║  ██║██║  ██║██████╔╝╚██████╔╝╚██████╗   ██║   ███████╗╚██████╔╝██║  ██║
+$R   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝  ╚═════╝   ╚═╝   ╚══════╝ ╚═════╝ ╚═╝  ╚═╝
+       $A AUTEUR $R: $JFAXEL                        
+                 $PGOOGLE TRADUCTION                             
 EOF
 echo ""
-echo -n "$R[+]$C Votre Phrase a traduire :  $B "; read TRA
+echo -n "$R[+]$C Votre Phrase a traduire $R :  $B "; read TRA
 echo $J
-echo "$R[+]$B Premièrement choisissez la langue de votre saisie précédente. $R[+]\n$R[+]$B Soit$P français anglais allemand indonesian $R[+]"
+echo "$R[+]$B Premièrement choisissez la langue de votre saisie. $R[+]\n$R[+]$B Soit$P fr en de ind ..etc $R[+]"
 echo -n "$R[+]$J De : $A "; read mael
 echo ""
 echo "$R[+]$B Ensuite la langue dans laquelle vous voulez traduire $R[+]"
