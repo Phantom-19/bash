@@ -29,14 +29,15 @@ clear
 apt install  simplejson
 clear
 apt install  curl
-clear
+echo ""
 echo "[ Mise à jour terminée..]"  | lolcat
-sleep 2
+sleep 3
+clear
+echo ""
 toilet -f pagga  Faxel  | lolcat
-sleep 5
+sleep 7
 
 clear
-
 echo " ░▒▓██████████►╬╬╬╬╬╬╬╬╬╬╬╬╬◄██████████▓▒░"  | lolcat  
 echo " ░▒▓██►  ╔╗F╦╔═╗╔╗╔╦FF╦╔═╗╔╗╔╦F╦╔═╗  ◄██▓▒░"  | lolcat  
 echo " ░▒▓██►  ╠╩╗║║╣F║║║╚╗╔╝║╣F║║║║F║║╣F  ◄██▓▒░"  | lolcat  
@@ -45,8 +46,7 @@ echo " ░▒▓██████████►╬╬╬╬╬╬╬╬╬╬�
 echo " ░▒▓██████████►Auteur : Faxel◄██████████▓▒░"   | lolcat  
  
 echo ""
-echo "Voulez-vous installer Ngrok ? [O/n]" | lolcat
-read oui
+echo "Voulez-vous installer Ngrok ? [O/n]" read oui
 case $oui in
 o)
 echo ""
