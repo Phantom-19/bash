@@ -91,7 +91,7 @@ echo "    ⋱ ⋮ ⋰ " | lolcat
 echo "    ⋯ ◯ ⋯¨. ︵ ……………………………………….     ^v^ " | lolcat  
 echo "    ¨︵¸︵( ░░ )︵.︵.︵………….. ^v^ " | lolcat  
 echo "    (´░░░░░░ ‘) ░░░’ )  ) " | lolcat  
-echo "    `´︶´¯`︶´`︶´︶´`︶…..^v^………   . ^v^ " | lolcat  
+echo "    `´︶´¯`︶´`︶´︶´`︶     " | lolcat  
 echo "    ……………………………………..   ︵.︵ " | lolcat  
 echo "    …….………………………………. (˛. *˛.)…….. ^v^ " | lolcat  
 echo "    ………………………………….. (˛˛. *。 ) " | lolcat  
