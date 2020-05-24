@@ -17,12 +17,19 @@ echo "Mise a jour de la librairie de termux..." | lolcat
 echo ""
 sleep 1
 apt update && upgrade 
+clear
 apt install  wget
+clear
 apt install  php
+clear
 apt install  curl
+clear
 apt install  nano
+clear
 apt install  simplejson
+clear
 apt install  curl
+clear
 echo "[ Mise à jour terminée..]"  | lolcat
 sleep 2
 toilet -f pagga  Faxel  | lolcat
