@@ -46,7 +46,8 @@ echo " ░▒▓██████████►╬╬╬╬╬╬╬╬╬╬�
 echo " ░▒▓██████████►Auteur : Faxel◄██████████▓▒░"   | lolcat  
  
 echo ""
-echo "Voulez-vous installer Ngrok ? [O/n]" read oui
+echo "Voulez-vous installer Ngrok ? [O/n]" | lolcat
+read -p      "Faxel@Mr Hacker_K~#" oui
 case $oui in
 o)
 echo ""
@@ -91,7 +92,6 @@ echo "    ⋱ ⋮ ⋰ " | lolcat
 echo "    ⋯ ◯ ⋯¨. ︵ ……………………………………….     ^v^ " | lolcat  
 echo "    ¨︵¸︵( ░░ )︵.︵.︵………….. ^v^ " | lolcat  
 echo "    (´░░░░░░ ‘) ░░░’ )  ) " | lolcat  
-echo "    `´︶´¯`︶´`︶´︶´`︶     " | lolcat  
 echo "    ……………………………………..   ︵.︵ " | lolcat  
 echo "    …….………………………………. (˛. *˛.)…….. ^v^ " | lolcat  
 echo "    ………………………………….. (˛˛. *。 ) " | lolcat  
@@ -112,6 +112,8 @@ echo ""
 
 n)
 clear
+toilet -f pagga  Faxel  | lolcat
+sleep 2
 echo "Impossible d'installer Ngrok correctement :(" | lolcat
 echo ""
 esac
