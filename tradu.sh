@@ -1,4 +1,18 @@
 #!/bin/bash
+
+A='\033[34;1m'
+V='\033[32;1m'
+P='\033[35;1m'
+C='\033[36;1m'
+R='\033[31;1m'
+B='\033[37;1m'
+J='\033[33;1m'
+clear
+echo "Veuillez patienter..."
+sleep 3
+echo "Bienvenue chez Faxel"
+sleep 5
+clear
 vert=$(tput setaf 2)
 Traducteur(){
          serveurt=$(curl "https://translate.google.com/m?hl=id&sl=$mael&tl=$noel&ie=UTF-8&prev=_m&q=$TRA" --location --silent \
@@ -11,24 +25,23 @@ Traducteur(){
          -H 'accept-encoding: gzip, deflate, br' \
          -H 'accept-language: id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7' --compressed)
    faxel=$(echo -e "$serveurt" | grep -Po 'class="t0">(\D+)</div>' | cut -d ">" -f2 | cut -d "<" -f1)
-  echo -e "[+] Resultat -> $faxel"
+  echo -n "$R[+]$B Resultat ===>  $faxel"
 }
 echo "${vert}"
 cat << "EOF"
- _  _ ____   /!_.-_|\   ____ ____ _  _ ____ _    
- |\/| |__/   `-/_'--'   |___ |__|  \/  |___ |                              
- |  | |  \   (_(o)\\\)  |    |  | _/\_ |___ |___                           
-            (||\\\\;_,                             
-             /  _-".----.                       
-           ./_-"  /o,--.o\ 
-          /      |o (  ) o|  AUTEUR : FAXEL                        
-         !__,--.__\o `-'o/   GOOGLE Traduction ==                      
-          |_-__--__`----'                          
-         __,/\_|\/\,                               
-        (   `/_'`X_;         
-         `.____)____)
+ _  _ ____     ____ ____ _  _ ____ _    
+ |\/| |__/     |___ |__|  \/  |___ |                              
+ |  | |  \     |    |  | _/\_ |___ |___                           
+        AUTEUR : FAXEL                        
+                 GOOGLE Traduction                             
 EOF
-echo -n "Traducteur -> "; read TRA
-echo -n "De  : "; read mael
-echo -n "A   : "; read noel
+echo ""
+echo -n "$R[+]$C Votre Phrase a traduire :  $B "; read TRA
+echo $J
+echo "$R[+]$B Premièrement choisissez la langue de votre saisie précédente. $R[+]\n$R[+]$B Soit$P français anglais allemand indonesian $R[+]"
+echo -n "$R[+]$J De : $A "; read mael
+echo ""
+echo "$R[+]$B Ensuite la langue dans laquelle vous voulez traduire $R[+]"
+echo $J
+echo -n "$R[+]$J A  : $J "; read noel
 Traducteur
