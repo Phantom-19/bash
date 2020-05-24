@@ -112,8 +112,8 @@ echo ""
 
 n)
 clear
-toilet -f pagga  Mr Faxel  | lolcat
+toilet -f pagga        Mr Faxel  | lolcat
 sleep 2
-echo "Impossible d'installer Ngrok correctement :(" | lolcat
+echo "Impossible d'installer Ngrok correctement " | lolcat
 echo ""
 esac
