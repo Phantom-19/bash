@@ -17,16 +17,16 @@
 <a href="https://github.com/Phantom-19/link/watchers"><img title="En train de regarder" src="https://img.shields.io/github/watchers/Phantom-19/link?label=Watchers&color=blue&style=flat-square"></a>
 </p>
 
-## Installation :
+## `Installation :`
 ## `pour le SCANNEUR IP `
 * `apt update`
 * `apt install git curl python2 python `
 * `git clone https://github.com/Phantom-19/bash.git`
 * `cd bash`
 
-#### Execution > `sh sc.sh`
+#### `Execution` > `sh sc.sh`
 
-## Commande unique:
+## `Commande unique:`
 ```
 apt update ; apt install git curl -y ; git clone git clone https://github.com/Phantom-19/bash.git ; cd bash ; sh sc.sh
 ```
@@ -35,9 +35,9 @@ apt update ; apt install git curl -y ; git clone git clone https://github.com/Ph
 <a href="#"><img title="Capture SCANNEUR IP" src="https://raw.githubusercontent.com/Phantom-19/bash/master/ips1.jpg"/></a>
 <a href="#"><img title="Capture SCANNEUR IP" src="https://raw.githubusercontent.com/Phantom-19/bash/master/ips2.jpg"/></a>
 
-# Usage de sudo pour le root
+# `Usage de sudo pour le root`
 
-## Installation :
+## `Installation :`
 * `git clone https://github.com/Phantom-19/bash`
 >>>>>
 * `cd bash`
@@ -53,7 +53,7 @@ apt update ; apt install git curl -y ; git clone git clone https://github.com/Ph
 * `sudo su`
 >>>>>
 * `sudo tsu `
-# Usage de bash.bashrc
+# `Usage de bash.bashrc`
 >>>>>
 * `curl -LO https://raw.githubusercontent.com/phantom-19/bash/master/bash.bashrc`
 >>>>>
@@ -65,9 +65,31 @@ apt update ; apt install git curl -y ; git clone git clone https://github.com/Ph
 >>>>>
 * `new session `
 
-### `Si vous copiez ce code, alors donnez-moi les crédits` 
+### `Languages` :
+#### `Python` :
+[![Python](https://img.shields.io/badge/Code-Python-yellow.svg?style=plastic)](#)
+[![Python](https://img.shields.io/badge/Code-Python-yellow.svg?style=flat)](#)
+[![Python](https://img.shields.io/badge/Code-Python-yellow.svg?style=flat-square)](#)
+[![Python](https://img.shields.io/badge/Code-Python-yellow.svg?style=social)](#)
+[![Python](https://img.shields.io/badge/Code-Python-yellow.svg?style=for-the-badge)](#)
 
-## `Retrouvez moi sur` :
+#### `Bash` :
+[![Bash](https://img.shields.io/badge/Code-Bash-green.svg?style=plastic)](#)
+[![Bash](https://img.shields.io/badge/Code-Bash-green.svg?style=flat)](#)
+[![Bash](https://img.shields.io/badge/Code-Bash-green.svg?style=flat-square)](#)
+[![Bash](https://img.shields.io/badge/Code-Bash-green.svg?style=social)](#)
+[![Bash](https://img.shields.io/badge/Code-Bash-green.svg?style=for-the-badge)](#)
+
+#### `Taille` :
+[![Taille](https://img.shields.io/badge/Taille-00KB-orange.svg?style=plastic)](#)
+[![Taille](https://img.shields.io/badge/Taille-00KB-orange.svg?style=flat)](#)
+[![Taille](https://img.shields.io/badge/Taille-00KB-orange.svg?style=flat-square)](#)
+[![Taille](https://img.shields.io/badge/Taille-00KB-orange.svg?style=social)](#)
+[![Taille](https://img.shields.io/badge/Taille-00KB-orange.svg?style=for-the-badge)](#)
+`###############################################################################################################`
+
+### `Si vous copiez ce code, alors donnez-moi les crédits` 
+## `Retrouvez moi ` :
 [![Github](https://img.shields.io/badge/Github-Phantom--19-green?style=for-the-badge&logo=github)](https://github.com/Phantom-19)
 [![Twitter](https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=Twitter)](https://twitter.com/KouadioAntoin13)
 [![Instagram](https://img.shields.io/badge/Instagram-%40faxel.19-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/faxel19)
@@ -79,3 +101,10 @@ apt update ; apt install git curl -y ; git clone git clone https://github.com/Ph
 [![Skyrock](https://img.shields.io/badge/Skyrock-%40kouadiok-red?style=for-the-badge&logo=skyrock)](https://faxel.skyrock.com/profil)
 [![Snapchat](https://img.shields.io/badge/Snapchat-%40McTony64-green?style=for-the-badge&logo=snapchat)](https://www.snapchat.com/add/mctony64)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?style=flat-square)]
+### `Badges d'auteur + style d'encadrement` :
+[![Auteur](https://img.shields.io/badge/Auteur-Phantom--19-blue.svg?style=plastic)](#)
+[![Auteur](https://img.shields.io/badge/Auteur-Phantom--19-blue.svg?style=flat)](#)
+[![Auteur](https://img.shields.io/badge/Auteur-Phantom--19-blue.svg?style=flat-square)](#)
+[![Auteur](https://img.shields.io/badge/Auteur-Phantom--19-blue.svg?style=social)](#)
+[![Auteur](https://img.shields.io/badge/Auteur-Phantom--19-blue.svg?style=for-the-badge)](#)
+[![Auteur](https://img.shields.io/badge/Auteur-Phantom--19-blue.svg?style=for-the-badge&logo=github)](#)
