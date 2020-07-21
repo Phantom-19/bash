@@ -4,7 +4,8 @@
 <p align="center">
 <a href="#"><img title="Photo de l'auteur" src="https://github.com/Phantom-19/bash/blob/master/fr.jpg"></a>
 <!--<a href="#"><img title="Photo de l'auteur" src="https://github.com/Phantom-19/bash/blob/master/Faxel.jpg"></a>
-[<img src="https://raw.githubusercontent.com/An0nUD4Y/An0nUD4Y/master/811edd5c-efa6-4e77-ab34-d4ff096fbf47.gif" height="300"  width="1500">](http://wayou.github.io/t-rex-runner/)-->
+[<img src="https://raw.githubusercontent.com/An0nUD4Y/An0nUD4Y/master/811edd5c-efa6-4e77-ab34-d4ff096fbf47.gif" height="300"  width="1500">](http://wayou.github.io/t-rex-runner/) 
+-->
 </p>
 <p align="center">
 <a href="https://github.com/Phantom-19"><img title="Auteur" src="https://img.shields.io/badge/Auteur-Faxel-red.svg?style=for-the-badge&logo=github"></a>
