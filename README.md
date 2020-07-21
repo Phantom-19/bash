@@ -1,3 +1,5 @@
+
+[<img src="https://raw.githubusercontent.com/Phantom-19/bash/master/fr.jpg" height="400"  width="400">](http://wayou.github.io/t-rex-runner/)
 <p align="left">
 <a href="#"><img title="Made in Ivory Coast" src="https://img.shields.io/badge/MADE%20IN-IVORY COAST-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
