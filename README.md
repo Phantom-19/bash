@@ -31,7 +31,7 @@
 
 ## `Commande unique:`
 ```
-apt update ; apt install git curl -y ; git clone git clone https://github.com/Phantom-19/bash.git ; cd bash ; sh sc.sh
+apt update ; apt install git curl -y ; git clone https://github.com/Phantom-19/bash.git ; cd bash ; sh sc.sh
 ```
 <br>
 <p align="center">
