@@ -2,6 +2,7 @@ command_not_found_handle() {
 	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
 }
 python2 /data/data/com.termux/files/home/Mr/Faxel.py
+python3 /data/data/com.termux/files/home/Security/faxel
 echo -e "\e[1;96m╔═════════════════════════════════════════╗ "
 echo -e "\e[1;96m║\e[48;5;0;38;5;198m╔╗ ┬┌─┐┌┐┌┬  ┬┌─┐┌┐┌┬ ┬┌─┐  ┌─┐┬ ┬┌─┐┌─┐ \e[1;96m║"  
 echo -e "\e[1;96m║\e[48;5;0;38;5;198m╠╩╗│├┤ │││└┐┌┘├┤ ││││ │├┤   │  ├─┤├┤ ┌─┘ \e[1;96m║"  
