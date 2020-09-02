@@ -19,26 +19,6 @@
 <a href="#"><img title="Langage" src="https://forthebadge.com/images/badges/made-with-python.svg"></a>
 </p>
 
-## `Installation :`
-
-## `pour le SCANNEUR IP `
-
-* `apt update`
-* `apt install git curl python2 python `
-* `git clone https://github.com/Phantom-19/bash.git`
-* `cd bash`
-
-#### `Execution` > `sh sc.sh`
-
-## `Commande unique:`
-```
-apt update ; apt install git curl -y ; git clone https://github.com/Phantom-19/bash.git ; cd bash ; sh sc.sh
-```
-<br>
-<p align="center">
-<a href="#"><img title="Capture SCANNEUR IP" src="https://raw.githubusercontent.com/Phantom-19/bash/master/ips1.jpg"/></a>
-<a href="#"><img title="Capture SCANNEUR IP" src="https://raw.githubusercontent.com/Phantom-19/bash/master/ips2.jpg"/></a>
-
 # `Usage de sudo pour le root`
 
 ## `Installation :`
@@ -60,6 +40,7 @@ apt update ; apt install git curl -y ; git clone https://github.com/Phantom-19/b
 * `new session `
 
 ### `Languages` :
+
 #### `Python` :
 
 [![Python](https://img.shields.io/badge/Code-Python-yellow.svg?style=plastic)](#)
