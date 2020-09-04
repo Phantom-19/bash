@@ -16,17 +16,18 @@ def _cls():
 # -Importation des modules-#
 try:    
     import os, time, sys
-    print("\n\033[38;5;245m Installation des paquets")    
-except :
+    print("\n\033[38;5;245m Installation des paquets")
     _cls()
     os.system("apt-get update")
     os.system("apt-get install curl -y")
     os.system("apt-get install python -y")
-    os.system("apt-get install python2 -y")
     os.system("apt-get install nano -y")
     os.system("apt-get install toilet -y")
     os.system("apt-get install ruby -y")
     os.system("gem install lolcat")
+except :
+    _cls()
+    setup()
 ####################################################################################################
 def setup():
   _cls()
