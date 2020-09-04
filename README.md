@@ -19,52 +19,11 @@
 <a href="#"><img title="Langage" src="https://forthebadge.com/images/badges/made-with-python.svg"></a>
 </p>
 
-# `Usage de sudo pour le root`
+# `Installation`
 
-## `Installation :`
-* `git clone https://github.com/Phantom-19/bash`
-* `cd bash`
-* `pkg install ncurses-utils`
-* `cat sudo > /data/data/com.termux/files/usr/bin/sudo`
-* `chmod 700 /data/data/com.termux/files/usr/bin/sudo`
-* `pkg install tsu`
-* `sudo su`
-* `sudo tsu `
-
-# `Usage de bash.bashrc`
-
-* `curl -LO https://raw.githubusercontent.com/phantom-19/bash/master/bash.bashrc`
-* `mv bash.bashrc /data/data/com.termux/files/usr/etc`
-* `cd ../usr/etc`
-* `nano bash.bashrc`
-* `new session `
-
-### `Languages` :
-
-#### `Python` :
-
-[![Python](https://img.shields.io/badge/Code-Python-yellow.svg?style=plastic)](#)
-[![Python](https://img.shields.io/badge/Code-Python-yellow.svg?style=flat)](#)
-[![Python](https://img.shields.io/badge/Code-Python-yellow.svg?style=flat-square)](#)
-[![Python](https://img.shields.io/badge/Code-Python-yellow.svg?style=social)](#)
-[![Python](https://img.shields.io/badge/Code-Python-yellow.svg?style=for-the-badge)](#)
-
-#### `Bash` :
-
-[![Bash](https://img.shields.io/badge/Code-Bash-green.svg?style=plastic)](#)
-[![Bash](https://img.shields.io/badge/Code-Bash-green.svg?style=flat)](#)
-[![Bash](https://img.shields.io/badge/Code-Bash-green.svg?style=flat-square)](#)
-[![Bash](https://img.shields.io/badge/Code-Bash-green.svg?style=social)](#)
-[![Bash](https://img.shields.io/badge/Code-Bash-green.svg?style=for-the-badge)](#)
-
-#### `Taille` :
-
-[![Taille](https://img.shields.io/badge/Taille-00KB-orange.svg?style=plastic)](#)
-[![Taille](https://img.shields.io/badge/Taille-00KB-orange.svg?style=flat)](#)
-[![Taille](https://img.shields.io/badge/Taille-00KB-orange.svg?style=flat-square)](#)
-[![Taille](https://img.shields.io/badge/Taille-00KB-orange.svg?style=social)](#)
-[![Taille](https://img.shields.io/badge/Taille-00KB-orange.svg?style=for-the-badge)](#)
-
+```
+apt update ; git clone https://github.com/Phantom-19/bash.git ; cd bash ; python2 setup.py
+```
 
 ### `Si vous copiez ce code, alors donnez-moi les crédits` 
 
@@ -84,11 +43,3 @@
 [![stackoverflow](https://img.shields.io/badge/stackoverflow-%40Faxel-yellow?logo=stackoverflow)](https://stackoverflow.com/users/13364230/faxel?)
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?logo=License-MIT)](https://raw.githubusercontent.com/phantom-19/yutube/master/LICENSE)
 
-### `Badges d'auteur + style d'encadrement` :
-
-[![Auteur](https://img.shields.io/badge/Auteur-Phantom--19-blue.svg?style=plastic)](#)
-[![Auteur](https://img.shields.io/badge/Auteur-Phantom--19-blue.svg?style=flat)](#)
-[![Auteur](https://img.shields.io/badge/Auteur-Phantom--19-blue.svg?style=flat-square)](#)
-[![Auteur](https://img.shields.io/badge/Auteur-Phantom--19-blue.svg?style=social)](#)
-[![Auteur](https://img.shields.io/badge/Auteur-Phantom--19-blue.svg?style=for-the-badge)](#)
-[![Auteur](https://img.shields.io/badge/Auteur-Phantom--19-blue.svg?style=for-the-badge&logo=github)](#)
