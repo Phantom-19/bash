@@ -1,8 +1,9 @@
 command_not_found_handle() {
 	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
 }
-python2 /data/data/com.termux/files/home/Mr/Faxel.py
+#python2 /data/data/com.termux/files/home/Mr/Faxel.py
 #python3 /data/data/com.termux/files/home/Security/faxel
+clear
 echo -e "\e[1;96m╔═════════════════════════════════════════╗ "
 echo -e "\e[1;96m║\e[48;5;0;38;5;198m╔╗ ┬┌─┐┌┐┌┬  ┬┌─┐┌┐┌┬ ┬┌─┐  ┌─┐┬ ┬┌─┐┌─┐ \e[1;96m║"  
 echo -e "\e[1;96m║\e[48;5;0;38;5;198m╠╩╗│├┤ │││└┐┌┘├┤ ││││ │├┤   │  ├─┤├┤ ┌─┘ \e[1;96m║"  
@@ -26,4 +27,3 @@ echo ''
 PS1="\[\e[38;5;214m\]╔═\e[1;91m[\[\e[97m\]\T\[\e[1;91m\]]\e[38;5;214m══\e[1;91m[\[\e[38;5;245m\]Mr \e[38;5;221mFaxel\[\e[1;91m\]]\033[38;5;214m══\[\e[1;31m\][\e[1;96m\]\e[1;92m\W\[\e[1;91m\]]\e[38;5;214m══\e[1;91m[\[\e[1;96m\#\e[1;91m]
 \[\e[38;5;214m\]║
 \[\e[38;5;214m\]╚═\033[1;91m▶\[\e[38;5;115m\]"
-
